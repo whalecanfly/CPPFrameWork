@@ -5,17 +5,29 @@
 
 ## 目录
 _boost boost相关库当前取自最新版本V1.7.0
+
 _socket 
- --linux 编写linux下的两种模型，epoll
- --windows 编写windows下支持的五种模型 
+
+&ensp;&ensp;--linux 编写linux下的两种模型，epoll
+ 
+&ensp;&ensp;--windows 编写windows下支持的五种模型 
+ 
 _designmodel 设计模型 eg:单例 工厂 
+
 _STL 
+
 _Log  日志系统分析   谷歌glog
+
 _xml 解析xml
+
 _json 解析json
+
 _thread 线程 
+
 _UI 界面库
+
 _Database 数据库
+
 
 ## 代码使用范围
 计划支持windows、linux通用，目前先支持windows，后续会同步支持linux。
