@@ -22,6 +22,8 @@ _xml 解析xml
 
 _json 解析json
 
+_html 解析html
+
 _thread 线程、进程、线程池 
 
 _ui 界面库
@@ -30,7 +32,7 @@ _database 数据库
 
 _shareMemory 共享内存
 
-_Algorithm 算法 （boost中也有算法模块，这一块儿是做补充，公共的算法才放置在该模块下）
+_Algorithm 算法 （boost中也有算法模块，这一块儿是做补充，公共的算法才放置在该模块下，eg：加密 解密 转换 都放在公共算法处）
 
 
 ## 代码使用范围
