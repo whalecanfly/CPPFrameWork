@@ -14,19 +14,23 @@ _socket
  
 _designmodel 设计模型 eg:单例 工厂 
 
-_STL 
+_stl 容器 
 
-_Log  日志系统分析   谷歌glog
+_log  日志系统分析   谷歌glog
 
 _xml 解析xml
 
 _json 解析json
 
-_thread 线程 
+_thread 线程、进程、线程池 
 
-_UI 界面库
+_ui 界面库
 
-_Database 数据库
+_database 数据库
+
+_shareMemory 共享内存
+
+_Algorithm 算法 （boost中也有算法模块，这一块儿是做补充，公共的算法才放置在该模块下）
 
 
 ## 代码使用范围
