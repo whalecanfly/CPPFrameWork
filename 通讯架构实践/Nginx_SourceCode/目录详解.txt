@@ -1,0 +1,35 @@
+-auto: 编译相关的脚本，可执行文件configure会调用到
+  --cc:检查编译器的脚本
+  --lib：检查依赖库的脚本
+  --os：检查操作系统的类型脚本
+  --type：检查平台类型脚本
+  
+-CHANGE：等同于releaseNote 当前版本修复的bug，新增加的功能说明
+-CHANGE.ru： 俄语版
+
+-conf：默认的配置文件
+-configure：可执行文件 脚本 编译Nginx前必须执行本脚本  以生成必要的中间文件
+
+-contrib: 脚本跟工具，典型的是vim高亮工具
+ --vim: 拷贝至 ~/.vim 语法高亮显示
+
+-html：缺省的欢迎页面
+ --50x:错误重定向界面
+ --index：缺省的欢迎界面
+ 
+-man: 帮助文件目录 man ./nginx.8
+
+-README: 文档获取的网址
+
+-src：nginx源代码目录
+ --core:核心代码
+ --event:event(事件)模块相关代码
+ --http:http(web服务)模块相关代码
+ --mail:邮件模块相关代码
+ --misc: nginx 的一些utils,定义了test和profiler的一些外围模块的逻辑
+ --os:操作系统相关代码
+ --stream：流处理相关代码
+ 
+
+
+
