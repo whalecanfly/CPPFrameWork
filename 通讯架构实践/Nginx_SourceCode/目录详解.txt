@@ -30,6 +30,9 @@
  --os:操作系统相关代码
  --stream：流处理相关代码
  
+-objs: 执行了./configure后生成的中间文件目录
+ --ngx_module.c：内容决定了我们一会儿编译nginx所包含的模块
+ 
 
 
 
